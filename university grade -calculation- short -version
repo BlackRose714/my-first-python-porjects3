@@ -1,0 +1,43 @@
+# Function to calculate and print letter grade
+# Notu hesaplayan ve harf notunu yazdıran fonksiyon
+def calculate_grade(course_name):
+    print(f"\n{course_name}")
+    midterm = float(input("Midterm grade: "))  # Vize notu
+    final = float(input("Final grade: "))      # Final notu
+    total = midterm * 0.3 + final * 0.7        # Başarı notu
+    print("Final score =", total)
+
+    if total >= 85:
+        print("Letter grade = AA")
+    elif total >= 70:
+        print("Letter grade = BA")
+    elif total >= 60:
+        print("Letter grade = BB")
+    elif total >= 50:
+        print("Letter grade = CB")
+    elif total >= 40:
+        print("Letter grade = CC")
+    else:
+        print("Letter grade = FF")
+
+# Get student's name and department
+# Öğrencinin adını ve bölümünü al
+name = input("Student name: ")
+department = input("Student's department: ").lower()
+
+# Define courses based on department
+# Bölüme göre dersleri tanımla
+if department == "child development":
+    courses = ["Mother and Child Health", "Child Nutrition", "Child Development", "Statistics"]
+elif department == "computer programming":
+    courses = ["Fundamentals of Programming", "Database Management Systems", "Mathematics", "Graphic Design"]
+elif department == "social services":
+    courses = ["Sociology", "Social Security", "Human Behavior and Social Environment", "Social Work Theories"]
+else:
+    print("Department not found.")  # Bölüm bulunamadı
+    courses = []
+
+# Loop through courses and calculate grades
+# Dersleri sırayla gez ve notları hesapla
+for course in courses:
+    calculate_grade(course)
