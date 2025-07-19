@@ -1,0 +1,252 @@
+# Get student's name
+# Öğrencinin adını al
+name = input("Student name: ")
+
+# Get student's department
+# Öğrencinin bölümünü al
+department = input("Student's department: ").lower()
+
+if department == "child development":
+    # Anne ve Çocuk Sağlığı
+    print("Mother and Child Health")
+    midterm = float(input("Midterm grade: "))  # Vize notu
+    final = float(input("Final grade: "))      # Final notu
+    total = midterm * 0.3 + final * 0.7        # Başarı notu hesaplama
+    print("Final score =", total)
+
+    if total >= 85:
+        print("Letter grade = AA")  # Harf notu
+    elif total >= 70:
+        print("Letter grade = BA")
+    elif total >= 60:
+        print("Letter grade = BB")
+    elif total >= 50:
+        print("Letter grade = CB")
+    elif total >= 40:
+        print("Letter grade = CC")
+    else:
+        print("Letter grade = FF")
+
+    # Child Nutrition
+    print("Child Nutrition")
+    midterm = float(input("Midterm grade: "))
+    final = float(input("Final grade: "))
+    total = midterm * 0.3 + final * 0.7
+    print("Final score =", total)
+
+    if total >= 85:
+        print("Letter grade = AA")
+    elif total >= 70:
+        print("Letter grade = BA")
+    elif total >= 60:
+        print("Letter grade = BB")
+    elif total >= 50:
+        print("Letter grade = CB")
+    elif total >= 40:
+        print("Letter grade = CC")
+    else:
+        print("Letter grade = FF")
+
+    # Child Development
+    print("Child Development")
+    midterm = float(input("Midterm grade: "))
+    final = float(input("Final grade: "))
+    total = midterm * 0.3 + final * 0.7
+    print("Final score =", total)
+
+    if total >= 85:
+        print("Letter grade = AA")
+    elif total >= 70:
+        print("Letter grade = BA")
+    elif total >= 60:
+        print("Letter grade = BB")
+    elif total >= 50:
+        print("Letter grade = CB")
+    elif total >= 40:
+        print("Letter grade = CC")
+    else:
+        print("Letter grade = FF")
+
+    # Statistics
+    print("Statistics")
+    midterm = float(input("Midterm grade: "))
+    final = float(input("Final grade: "))
+    total = midterm * 0.3 + final * 0.7
+    print("Final score =", total)
+
+    if total >= 85:
+        print("Letter grade = AA")
+    elif total >= 70:
+        print("Letter grade = BA")
+    elif total >= 60:
+        print("Letter grade = BB")
+    elif total >= 50:
+        print("Letter grade = CB")
+    elif total >= 40:
+        print("Letter grade = CC")
+    else:
+        print("Letter grade = FF")
+
+elif department == "computer programming":
+    # Fundamentals of Programming
+    print("Fundamentals of Programming")
+    midterm = float(input("Midterm grade: "))
+    final = float(input("Final grade: "))
+    total = midterm * 0.3 + final * 0.7
+    print("Final score =", total)
+
+    if total >= 85:
+        print("Letter grade = AA")
+    elif total >= 70:
+        print("Letter grade = BA")
+    elif total >= 60:
+        print("Letter grade = BB")
+    elif total >= 50:
+        print("Letter grade = CB")
+    elif total >= 40:
+        print("Letter grade = CC")
+    else:
+        print("Letter grade = FF")
+
+    # Database Management Systems
+    print("Database Management Systems")
+    midterm = float(input("Midterm grade: "))
+    final = float(input("Final grade: "))
+    total = midterm * 0.3 + final * 0.7
+    print("Final score =", total)
+
+    if total >= 85:
+        print("Letter grade = AA")
+    elif total >= 70:
+        print("Letter grade = BA")
+    elif total >= 60:
+        print("Letter grade = BB")
+    elif total >= 50:
+        print("Letter grade = CB")
+    elif total >= 40:
+        print("Letter grade = CC")
+    else:
+        print("Letter grade = FF")
+
+    # Mathematics
+    print("Mathematics")
+    midterm = float(input("Midterm grade: "))
+    final = float(input("Final grade: "))
+    total = midterm * 0.3 + final * 0.7
+    print("Final score =", total)
+
+    if total >= 85:
+        print("Letter grade = AA")
+    elif total >= 70:
+        print("Letter grade = BA")
+    elif total >= 60:
+        print("Letter grade = BB")
+    elif total >= 50:
+        print("Letter grade = CB")
+    elif total >= 40:
+        print("Letter grade = CC")
+    else:
+        print("Letter grade = FF")
+
+    # Graphic Design
+    print("Graphic Design")
+    midterm = float(input("Midterm grade: "))
+    final = float(input("Final grade: "))
+    total = midterm * 0.3 + final * 0.7
+    print("Final score =", total)
+
+    if total >= 85:
+        print("Letter grade = AA")
+    elif total >= 70:
+        print("Letter grade = BA")
+    elif total >= 60:
+        print("Letter grade = BB")
+    elif total >= 50:
+        print("Letter grade = CB")
+    elif total >= 40:
+        print("Letter grade = CC")
+    else:
+        print("Letter grade = FF")
+
+elif department == "social services":
+    # Sociology
+    print("Sociology")
+    midterm = float(input("Midterm grade: "))
+    final = float(input("Final grade: "))
+    total = midterm * 0.3 + final * 0.7
+    print("Final score =", total)
+
+    if total >= 85:
+        print("Letter grade = AA")
+    elif total >= 70:
+        print("Letter grade = BA")
+    elif total >= 60:
+        print("Letter grade = BB")
+    elif total >= 50:
+        print("Letter grade = CB")
+    elif total >= 40:
+        print("Letter grade = CC")
+    else:
+        print("Letter grade = FF")
+
+    # Social Security
+    print("Social Security")
+    midterm = float(input("Midterm grade: "))
+    final = float(input("Final grade: "))
+    total = midterm * 0.3 + final * 0.7
+    print("Final score =", total)
+
+    if total >= 85:
+        print("Letter grade = AA")
+    elif total >= 70:
+        print("Letter grade = BA")
+    elif total >= 60:
+        print("Letter grade = BB")
+    elif total >= 50:
+        print("Letter grade = CB")
+    elif total >= 40:
+        print("Letter grade = CC")
+    else:
+        print("Letter grade = FF")
+
+    # Human Behavior and Social Environment
+    print("Human Behavior and Social Environment")
+    midterm = float(input("Midterm grade: "))
+    final = float(input("Final grade: "))
+    total = midterm * 0.3 + final * 0.7
+    print("Final score =", total)
+
+    if total >= 85:
+        print("Letter grade = AA")
+    elif total >= 70:
+        print("Letter grade = BA")
+    elif total >= 60:
+        print("Letter grade = BB")
+    elif total >= 50:
+        print("Letter grade = CB")
+    elif total >= 40:
+        print("Letter grade = CC")
+    else:
+        print("Letter grade = FF")
+
+    # Social Work Theories
+    print("Social Work Theories")
+    midterm = float(input("Midterm grade: "))
+    final = float(input("Final grade: "))
+    total = midterm * 0.3 + final * 0.7
+    print("Final score =", total)
+
+    if total >= 85:
+        print("Letter grade = AA")
+    elif total >= 70:
+        print("Letter grade = BA")
+    elif total >= 60:
+        print("Letter grade = BB")
+    elif total >= 50:
+        print("Letter grade = CB")
+    elif total >= 40:
+        print("Letter grade = CC")
+    else:
+        print("Letter grade = FF")
+else:
+    print("Department not found.")  # Bölüm bulunamadı
